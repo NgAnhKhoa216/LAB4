@@ -13,6 +13,7 @@ namespace WebApp.Migrations
                 table: "Movie",
                 type: "nvarchar(max)",
                 nullable: true);
+            //
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
